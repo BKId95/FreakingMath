@@ -22,13 +22,10 @@ public class FragmentTab extends Fragment {
 
         mTabHost.addTab(
                 mTabHost.newTabSpec("tab1").setIndicator("Tab 1", null),
-                FragmentLogin.class, null);
+                FragmentTab1.class, null);
         mTabHost.addTab(
                 mTabHost.newTabSpec("tab2").setIndicator("Tab 2", null),
-                FragmentLogin.class, null);
-        mTabHost.addTab(
-                mTabHost.newTabSpec("tab3").setIndicator("Tab 3", null),
-                FragmentLogin.class, null);
+                FragmentTab1.class, null);
 
         return view;
     }
